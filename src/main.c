@@ -1,7 +1,5 @@
 #include <stdlib.h>
 
-#include "surfaces/canvas.h"
-
 #include "bitmap-buffer.h"
 #include "image-io.h"
 #include "ray-casting.h"

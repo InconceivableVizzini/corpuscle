@@ -1,3 +1,5 @@
 add_executable(corp image-io.c main.c)
-target_include_directories(corp PUBLIC "../../steed/include/" "../../surfaces/include/")
+
+set_property(TARGET corp PROPERTY C_STANDARD 17)
+
 target_link_libraries(corp m)
